@@ -19,13 +19,13 @@ import os
 import sys
 import getopt
 
-try:
-    import wx  # NOQA
-    if wx.VERSION < (4,):
-        raise ImportError()
-except:
-    print("wxPython >= 4 is not installed. This program requires wxPython >=4 to run.")
-    raise
+#try:
+    #import wx  # NOQA
+    #if wx.VERSION < (4,):
+        #raise ImportError()
+#except:
+    #print("wxPython >= 4 is not installed. This program requires wxPython >=4 to run.")
+    #raise
 
 from printrun.pronterface import PronterApp
 
