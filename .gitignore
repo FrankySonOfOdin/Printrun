@@ -30,3 +30,8 @@ printrun/gcoder_line*.pyd
 /PrusaSlicer.ini
 /.eggs
 /SuperSlicer.ini
+
+#RunScripts
+000 - Activate PY VM.ps1
+002 - Deactivate.ps1
+001 - Start Pronterface.ps1
